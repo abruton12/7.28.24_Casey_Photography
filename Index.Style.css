@@ -1,0 +1,149 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 50px;
+    color: orange;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+
+.list {
+    display: flex;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: 35px;
+}
+
+    .navBar a {
+        float: right;
+        color: #ffff;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        width: 25%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+        .navBar a:hover {
+            background: cornflowerblue;
+            color: white;
+            margin-left: 0px;
+        }
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+}
+
+.main {
+    margin-top: 30px;
+}
+
+
+
+
+.introduction {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Eventslike {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.eventlist {
+    text-align: center;
+    font-size: 25px;
+}
+
+.more {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.video1 {
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.myphotos {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.photo1 {
+    height: 100%;
+    display: flex;
+}
+
+.Socialhead {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.instaButt {
+    padding-left: 5px;
+    border: none;
+    background: none;
+}
+
+.twitterButt {
+    padding: 2px;
+    border: none;
+    background: none;
+}
+
+.FaceBookButt {
+    padding: 2px;
+    border: none;
+    background: none;
+}
+
+.ytButt {
+    padding: 2px;
+    border: none;
+    background: none;
+}
+
+.backtotop {
+    padding-left: 5px;
+}
